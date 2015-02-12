@@ -295,7 +295,11 @@ namespace SimpleJSON
 			if (bool.TryParse (token, out flag)) {
 				return new JSONData (flag);
 			}
-			
+
+			// HACK: longs aren't supported, return as a string
+			UnityEngine.Debug.LogWarning("Couldn't numberize token: " + token);
+			return new JSONData(token);
+
 			throw new NotImplementedException (token);
 		}
 		

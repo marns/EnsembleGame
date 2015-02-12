@@ -8,9 +8,19 @@ using UnityEngine.Audio;
 
 public class EnsembleAPI : MonoBehaviour {
 
+	class NoteData {
+		public string sensor;
+		public float timestamp = 0;
+		public float value = 0;
+	}
+
 	public AudioMixer audioMixer;
 
 	List<AudioClip> clips = new List<AudioClip>();
+	List<NoteData> notes = new List<NoteData>();
+
+	private float playbackTime = 0;
+	private int currentNote = 0;
 
 	private EnsembleConfig _config;
 
@@ -52,7 +62,7 @@ public class EnsembleAPI : MonoBehaviour {
 			StartCoroutine(LoadFile(Application.dataPath + "/StreamingAssets/" + file));
 		}
 
-		WebRequest request = HttpWebRequest.Create(_config.compositionsEndpoint);
+		WebRequest request = HttpWebRequest.Create(_config.ensembleApi + "Compositions");
 		WebResponse response = request.GetResponse();
 
 		for (int i = 0; i < response.Headers.Count; i++) {
@@ -63,6 +73,7 @@ public class EnsembleAPI : MonoBehaviour {
 			Debug.Log (val);
 		}
 
+		int lastId = -1;
 		using (StreamReader reader = new StreamReader(response.GetResponseStream())) {
 
 			string contents = reader.ReadToEnd();
@@ -72,24 +83,89 @@ public class EnsembleAPI : MonoBehaviour {
 			Debug.Log("Count: " + node.Count);
 
 			foreach (SimpleJSON.JSONNode child in node.Children) {
-				Debug.Log("name:" + child["name"]);
-				Debug.Log("tempo:" + child["tempo"].AsFloat);
-				Debug.Log("created_by:" + child["created_by"]);
+				//Debug.Log("name:" + child["name"]);
+				//Debug.Log("tempo:" + child["tempo"].AsFloat);
+				//Debug.Log("created_by:" + child["created_by"]);
 				Debug.Log("id:" + child["id"]);
+				lastId = child["id"].AsInt;
 			}
 		}
+		if (_config.compositionId < 0) {
+			// Get latest ID
+			Debug.Log("Using latest composition ID: " + lastId);
+			_config.compositionId = lastId;
+		}
+
+		// Get notes from composition
+		// Pull note data
+		Debug.Log("GET NOTES! From composition: " + _config.compositionId);
+		request = HttpWebRequest.Create(_config.ensembleApi + "Compositions/" + _config.compositionId + "/notes");
+		response = request.GetResponse();
+
+		for (int i = 0; i < response.Headers.Count; i++) {
+			string val = response.Headers.GetKey(i) + ":";
+			foreach (string header in response.Headers.GetValues(i)) {
+				val += header + ":";
+			}
+			//Debug.Log (val);
+		}
+		
+		using (StreamReader reader = new StreamReader(response.GetResponseStream())) {
+			
+			string contents = reader.ReadToEnd();
+			Debug.Log(contents);
+			
+			SimpleJSON.JSONNode node = SimpleJSON.JSON.Parse(contents);
+			Debug.Log("Count: " + node.Count);
+
+			notes = new List<NoteData>();
+			float time = 0;
+			foreach (SimpleJSON.JSONNode child in node.Children) {
+				//Debug.Log("sensor_type:" + child["sensor_type"]);
+				//Debug.Log("value:" + child["value"].AsFloat);
+				//Debug.Log("time:" + child["time"].AsInt);
+
+				if (child["time_float"] != null) {
+					time = child["time_float"].AsFloat;
+				}
+
+				NoteData note = new NoteData() {
+					sensor = child["sensor_type"],
+					timestamp = time,
+					value = child["value"].AsFloat,
+				};
+				time++;
+				notes.Add(note);
+			}
+		}
+
+		playbackTime = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-		// Get data
-		float flange = Mathf.Sin(Time.time);
-		audioMixer.SetFloat("Flange.Rate", flange);
+		playbackTime += Time.deltaTime;
 
-		// Update sensor data
-		foreach (EnsembleConfig.EffectsMap effect in _config.effects) {
-			Debug.Log("Update " + effect.effectName + " from sensor " + effect.sensorName);
+		// Get data
+		//float flange = Mathf.Sin(Time.time);
+		//audioMixer.SetFloat("Flange.Rate", flange);
+
+		while (currentNote < notes.Count - 1 && notes[currentNote].timestamp < playbackTime) {
+
+			// Apply note transform
+			EnsembleConfig.EffectsMap effect;
+			if (_config.effects.TryGetValue(notes[currentNote].sensor, out effect)) {
+
+				// Remap
+				Debug.Log("SENSE REMAP: " + notes[currentNote].sensor + "(" + notes[currentNote].value + ")"
+				          + " to " + effect.effectName + "(" + effect.Transform(notes[currentNote].value) + ")");
+				audioMixer.SetFloat(effect.effectName, effect.Transform(notes[currentNote].value));
+			} else {
+				Debug.LogWarning("No mapping for sensor " + notes[currentNote].sensor);
+			}
+
+			currentNote++;
 		}
 	}
 }

@@ -19,16 +19,29 @@ public class EnsembleConfig {
 		public float inputRangeHigh;
 		public float outputRangeLow;
 		public float outputRangeHigh;
+
+		public float Transform(float value) {
+			// Remap into destination range
+			float range = inputRangeHigh - inputRangeLow;
+			float x = (value - inputRangeLow) / range;
+
+			float outputRange = outputRangeHigh - outputRangeLow;
+			return Mathf.Clamp((x*outputRange) + outputRangeLow, outputRangeLow, outputRangeHigh);
+		}
 	}
 	
-	public string compositionsEndpoint = "http://soundserver.herokuapp.com/api/Compositions";
+	public string ensembleApi = "http://soundserver.herokuapp.com/api/";
+	public int compositionId = 1; // -1 for latest
 
 	public string[] musicFiles = {
 		"test1.mp3",
 		"test2.mp3",
 	};
 
-	public List<EffectsMap> effects;
+	/// <summary>
+	/// Maps sensor names to an effect transformation
+	/// </summary>
+	public Dictionary<string, EffectsMap> effects;
 
 	public void LoadJSON(string filename) {
 
@@ -38,8 +51,10 @@ public class EnsembleConfig {
 			node = SimpleJSON.JSON.Parse(sr.ReadToEnd());
 		}
 
-		compositionsEndpoint = node["compositions_endpoint"];
-		Debug.Log("compositions_endpoint:" + compositionsEndpoint);
+		ensembleApi = node["ensemble_api"];
+		compositionId = node["composition_id"].AsInt;
+
+		Debug.Log("ensemble_api:" + ensembleApi);
 		JSONArray audioArray = node["audio_files"].AsArray;
 		musicFiles = new string[audioArray.Count];
 		for (int i = 0; i < audioArray.Count; i++) {
@@ -49,7 +64,7 @@ public class EnsembleConfig {
 
 		JSONArray effectsArray = node["effects_map"].AsArray;
 		if (effectsArray != null) {
-			effects = new List<EffectsMap>();
+			effects = new Dictionary<string, EffectsMap>();
 			for (int i = 0; i < effectsArray.Count; i++) {
 				JSONNode child = effectsArray[i];
 				EffectsMap effect = new EffectsMap() {
@@ -60,7 +75,10 @@ public class EnsembleConfig {
 					outputRangeLow = child["output_range_low"].AsFloat,
 					outputRangeHigh = child["output_range_high"].AsFloat
 				};
-				effects.Add(effect);
+				if (!string.IsNullOrEmpty(effect.sensorName)) {
+					Debug.Log("Mapping " + effect.sensorName + " to " + effect.effectName);
+					effects.Add(effect.sensorName, effect);
+				}
 			}
 		}
 	}

@@ -1,5 +1,6 @@
 {
-	"compositions_endpoint": "http://soundserver.herokuapp.com/api/Compositions",
+	"ensemble_api": "http://soundserver.herokuapp.com/api/",
+	"composition_id": "1",
 	"audio_files": [
 		"Music/chacha.ogg",
 		"Music/hooky.ogg"
@@ -14,7 +15,31 @@
 			"output_range_high": 20
 		},
 		{
-			"EFFECT": "homemade pressure sensor",
+			"sensor_name": "touch button 1",
+			"effect_name": "Flange.Rate",
+			"input_range_low": 0,
+			"input_range_high": 1,
+			"output_range_low": 0,
+			"output_range_high": 20
+		},
+		{
+			"sensor_name": "touch button 2",
+			"effect_name": "Flange.Rate",
+			"input_range_low": 0,
+			"input_range_high": 1,
+			"output_range_low": 0,
+			"output_range_high": 20
+		},
+		{
+			"sensor_name": "tempo button",
+			"effect_name": "Flange.Rate",
+			"input_range_low": 0,
+			"input_range_high": 1,
+			"output_range_low": 0,
+			"output_range_high": 20
+		},
+		{
+			"sensor_name": "adafruit stretch sensor",
 			"effect_name": "Flange.Rate",
 			"input_range_low": 0,
 			"input_range_high": 1,
