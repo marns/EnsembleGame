@@ -15,6 +15,8 @@ public class EnsembleAPI : MonoBehaviour {
 	}
 
 	public AudioMixer audioMixer;
+	public Animator animator;
+	public Equalizer equalizer;
 
 	List<AudioClip> clips = new List<AudioClip>();
 	List<NoteData> notes = new List<NoteData>();
@@ -158,9 +160,19 @@ public class EnsembleAPI : MonoBehaviour {
 			if (_config.effects.TryGetValue(notes[currentNote].sensor, out effect)) {
 
 				// Remap
+				float value = effect.Transform(notes[currentNote].value);
 				Debug.Log("SENSE REMAP: " + notes[currentNote].sensor + "(" + notes[currentNote].value + ")"
-				          + " to " + effect.effectName + "(" + effect.Transform(notes[currentNote].value) + ")");
-				audioMixer.SetFloat(effect.effectName, effect.Transform(notes[currentNote].value));
+				          + " to " + effect.effectName + "(" + value + ")");
+				audioMixer.SetFloat(effect.effectName, value);
+
+				// Special case for pitch: adjust animation playback speed
+				if (effect.effectName == "Pitch") {
+					animator.speed = value;
+				}
+
+				// Adjust equalizer colors for visual feedback.
+				// Goal: map one equalizer for each sensor
+				equalizer.BlendColor(effect.id % equalizer.equalizers.Length, value);
 			} else {
 				Debug.LogWarning("No mapping for sensor " + notes[currentNote].sensor);
 			}

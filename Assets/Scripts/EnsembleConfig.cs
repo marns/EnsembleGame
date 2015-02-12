@@ -19,6 +19,13 @@ public class EnsembleConfig {
 		public float inputRangeHigh;
 		public float outputRangeLow;
 		public float outputRangeHigh;
+		public int id;
+
+		private static int _nextId = 0;
+
+		public EffectsMap() {
+			id = _nextId++;
+		}
 
 		public float Transform(float value) {
 			// Remap into destination range

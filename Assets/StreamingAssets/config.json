@@ -16,35 +16,35 @@
 		},
 		{
 			"sensor_name": "touch button 1",
-			"effect_name": "Flange.Rate",
+			"effect_name": "LowPass.CutoffFreq",
 			"input_range_low": 0,
 			"input_range_high": 1,
-			"output_range_low": 0,
-			"output_range_high": 20
+			"output_range_low": 1000,
+			"output_range_high": 5000
 		},
 		{
 			"sensor_name": "touch button 2",
-			"effect_name": "Flange.Rate",
+			"effect_name": "Pitch",
 			"input_range_low": 0,
 			"input_range_high": 1,
-			"output_range_low": 0,
-			"output_range_high": 20
+			"output_range_low": .3,
+			"output_range_high": 3
 		},
 		{
 			"sensor_name": "tempo button",
-			"effect_name": "Flange.Rate",
+			"effect_name": "PitchShifter.Pitch",
 			"input_range_low": 0,
 			"input_range_high": 1,
-			"output_range_low": 0,
-			"output_range_high": 20
+			"output_range_low": .5,
+			"output_range_high": 2
 		},
 		{
 			"sensor_name": "adafruit stretch sensor",
-			"effect_name": "Flange.Rate",
+			"effect_name": "Flange.WetMix",
 			"input_range_low": 0,
 			"input_range_high": 1,
 			"output_range_low": 0,
-			"output_range_high": 20
+			"output_range_high": 1
 		}
 	]
 ]
