@@ -2,7 +2,6 @@
 	"ensemble_api": "http://soundserver.herokuapp.com/api/",
 	"composition_id": "1",
 	"audio_files": [
-		"Music/chacha.ogg",
 		"Music/hooky.ogg"
 	],
 	"effects_map": [

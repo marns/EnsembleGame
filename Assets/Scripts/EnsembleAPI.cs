@@ -55,15 +55,18 @@ public class EnsembleAPI : MonoBehaviour {
 	void Start () {
 
 		_config = new EnsembleConfig();
-		_config.LoadJSON(Application.dataPath + "/StreamingAssets/" + "config.json");
+		_config.LoadJSON(Application.streamingAssetsPath + "/config.json");
 
 		// Load music files
 		//string[] files = Directory.GetFiles(Application.dataPath + "/StreamingAssets/Music", "*.ogg");
 		string[] files = _config.musicFiles;
 		Debug.Log("Got " + files.Length + " files");
-		for (int i = 0; i < files.Length; i++) {
-			string file = files[i];
-			StartCoroutine(LoadFile(Application.dataPath + "/StreamingAssets/" + file));
+		//for (int i = 0; i < files.Length; i++) {
+
+		// Load only the first file.
+		if (files.Length > 0) {
+			string file = files[0];
+			StartCoroutine(LoadFile(Application.streamingAssetsPath + "/" + file));
 		}
 
 		WebRequest request = HttpWebRequest.Create(_config.ensembleApi + "Compositions");
