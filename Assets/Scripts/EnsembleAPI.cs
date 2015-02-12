@@ -18,6 +18,8 @@ public class EnsembleAPI : MonoBehaviour {
 	public Animator animator;
 	public Equalizer equalizer;
 
+	public ParticleSystem[] fireworks;
+
 	List<AudioClip> clips = new List<AudioClip>();
 	List<NoteData> notes = new List<NoteData>();
 
@@ -163,11 +165,22 @@ public class EnsembleAPI : MonoBehaviour {
 				float value = effect.Transform(notes[currentNote].value);
 				Debug.Log("SENSE REMAP: " + notes[currentNote].sensor + "(" + notes[currentNote].value + ")"
 				          + " to " + effect.effectName + "(" + value + ")");
-				audioMixer.SetFloat(effect.effectName, value);
 
-				// Special case for pitch: adjust animation playback speed
-				if (effect.effectName == "Pitch") {
-					animator.speed = value;
+				// Special case for fireworks
+				if (effect.effectName == "Fireworks") {
+					foreach (ParticleSystem ps in fireworks) {
+						//if (value > .5f)
+							ps.Play();
+					}
+				}
+				else
+				{
+					audioMixer.SetFloat(effect.effectName, value);
+
+					// Special case for pitch: adjust animation playback speed
+					if (effect.effectName == "Pitch") {
+						animator.speed = value;
+					}
 				}
 
 				// Adjust equalizer colors for visual feedback.
