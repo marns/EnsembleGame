@@ -1,0 +1,7 @@
+{
+	"compositions_endpoint": "http://soundserver.herokuapp.com/api/Compositions",
+	"audio_files": [
+		"Music/chacha.ogg",
+		"Music/hooky.ogg"
+	]
+]
