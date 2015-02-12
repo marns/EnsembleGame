@@ -2,17 +2,14 @@ README
 
 Welcome to the Ensemble player!
 
-It's currently a toy that plays some dancing animation (to the tempo set by Pitch!) and applies
-some funky audio effects, based on an Ensemble API composition.
+It's currently a toy that plays some dancing animation (to the tempo set by Pitch!) and applies some funky audio effects, based on an Ensemble API composition.
 
-Special note: Notes may have a "time_float" property, which should be the elapsed time, in seconds,
-since the beginning of the performance. If there is no time_float property, each note will be
-automatically spaced apart by 1 second.
+Special note: Notes may have a "time_float" property, which should be the elapsed time, in seconds, since the beginning of the performance. If there is no time_float property, each note will be automatically spaced apart by 1 second.
 
 Configuration:
 
 Locate the config.json file in the StreamingAssets folder.
-On OSX, this folder is located within the .App package.
+On OSX, this folder is located within the .App package under /Contents/Resources/Data/StreamingAssets.
 
 1. Set the Ensemble REST API URL, e.g. "http://soundserver.herokuapp.com/api/"
 Must have a trailing forward slash.
@@ -22,8 +19,7 @@ http://soundserver.herokuapp.com/api/Compositions/{id}/notes.
 To use the most recent composition, set the value to -1.
 
 3. Select the audio file to use. Only the first value is played.
-To use a new audio file, place a song in .ogg format (you can convert from MP3 using
-Audacity) in the Music directory within the StreamingAssets folder.
+To use a new audio file, place a song in .ogg format (you can convert from MP3 using Audacity) in the Music directory within the StreamingAssets folder.
 
 4. Map sensor input to effects. The sensor names are pulled from the API notes data.
 
