@@ -10,6 +10,16 @@ using SimpleJSON;
 
 [Serializable]
 public class EnsembleConfig {
+
+	public class EffectsMap {
+
+		public string effectName;
+		public string sensorName;
+		public float inputRangeLow;
+		public float inputRangeHigh;
+		public float outputRangeLow;
+		public float outputRangeHigh;
+	}
 	
 	public string compositionsEndpoint = "http://soundserver.herokuapp.com/api/Compositions";
 
@@ -17,6 +27,8 @@ public class EnsembleConfig {
 		"test1.mp3",
 		"test2.mp3",
 	};
+
+	public List<EffectsMap> effects;
 
 	public void LoadJSON(string filename) {
 
@@ -33,6 +45,23 @@ public class EnsembleConfig {
 		for (int i = 0; i < audioArray.Count; i++) {
 			musicFiles[i] = audioArray[i].Value;
 			Debug.Log("audio_files[" + i + "]:" + musicFiles[i]);
+		}
+
+		JSONArray effectsArray = node["effects_map"].AsArray;
+		if (effectsArray != null) {
+			effects = new List<EffectsMap>();
+			for (int i = 0; i < effectsArray.Count; i++) {
+				JSONNode child = effectsArray[i];
+				EffectsMap effect = new EffectsMap() {
+					sensorName = child["sensor_name"],
+					effectName = child["effect_name"],
+					inputRangeLow = child["input_range_low"].AsFloat,
+					inputRangeHigh = child["input_range_high"].AsFloat,
+					outputRangeLow = child["output_range_low"].AsFloat,
+					outputRangeHigh = child["output_range_high"].AsFloat
+				};
+				effects.Add(effect);
+			}
 		}
 	}
 

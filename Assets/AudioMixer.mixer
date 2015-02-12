@@ -13,7 +13,9 @@ AudioMixerController:
   m_StartSnapshot: {fileID: 24500003}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: c308aa2898af3431ca74f526d3f5a4f3
+    name: Flange.Rate
   m_AudioMixerGroupViews:
   - guids:
     - 475f6cfcb4cfa4f42b6a61d264fd46e4
@@ -34,6 +36,8 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: 24400002}
   - {fileID: 24496220}
+  - {fileID: 24474280}
+  - {fileID: 24465566}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -48,6 +52,48 @@ AudioMixerEffectController:
   m_EffectName: Attenuation
   m_MixLevel: 754b0f571c84148f8ab45a175ad5d4e9
   m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &24465566
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 826f404a506fe430aabe75e9417e37e1
+  m_EffectName: Flange
+  m_MixLevel: 65b31a1db02924130af58141b54f2ff3
+  m_Parameters:
+  - m_ParameterName: Drymix
+    m_GUID: a4e8e9bdb08884ba9999175339277d91
+  - m_ParameterName: Wetmix
+    m_GUID: b6ba0949826a444ff9da7ab04f854db5
+  - m_ParameterName: Depth
+    m_GUID: 49b94a9df52d74e8eaf770b94036d052
+  - m_ParameterName: Rate
+    m_GUID: c308aa2898af3431ca74f526d3f5a4f3
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &24474280
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: aeebee101e5b4463ca36af235bb7d42c
+  m_EffectName: Pitch Shifter
+  m_MixLevel: e9a7df296a9b54253bf405cd72affd4c
+  m_Parameters:
+  - m_ParameterName: Pitch
+    m_GUID: e62c67d0962f34f8e8f09f3bb6a4aa74
+  - m_ParameterName: FFT size
+    m_GUID: d0c65b26a535c4debb5a3370803596df
+  - m_ParameterName: Overlap
+    m_GUID: edaf5ab42eadd4f7c9a9057ad8886bb0
+  - m_ParameterName: Max channels
+    m_GUID: d498cc6fcc037419d8fc5e7ea0e62a7a
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
@@ -76,12 +122,15 @@ AudioMixerSnapshotController:
   m_SnapshotID: 1a122c5a23dd24d2fb34073967533427
   m_FloatValues:
     4ca0124005227458d85d9c6a31244a60: 1.01999998
+    e62c67d0962f34f8e8f09f3bb6a4aa74: 1
     41262c11c8f0a41ec822f15fe449778c: .370000005
     96e94c62499ae4b6ab0152dc19de2bf3: -16
     9d9070034f33342c4be2741177ebb198: -1
     b8719b93e0be84ff1ae531c39897c64e: .289999992
     65add266f1f5a47e999ba8d099e413dd: 0
+    c15e26c6ee547499d9540c077f2f8d79: .469999999
     95462797afcaf43b684a45d22b4a439a: .379999995
+    c308aa2898af3431ca74f526d3f5a4f3: 2.79999995
     3e1719e8617984cc49daa288131e4c17: 162
     c3cd7339c618c4f52819e953f744f64b: 8793
     d64e563b1c222484ba8010ea246657dd: 2.19000006

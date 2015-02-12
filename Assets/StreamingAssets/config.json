@@ -3,5 +3,23 @@
 	"audio_files": [
 		"Music/chacha.ogg",
 		"Music/hooky.ogg"
+	],
+	"effects_map": [
+		{
+			"sensor_name": "homemade pressure sensor",
+			"effect_name": "Flange.Rate",
+			"input_range_low": 0,
+			"input_range_high": 1,
+			"output_range_low": 0,
+			"output_range_high": 20
+		},
+		{
+			"EFFECT": "homemade pressure sensor",
+			"effect_name": "Flange.Rate",
+			"input_range_low": 0,
+			"input_range_high": 1,
+			"output_range_low": 0,
+			"output_range_high": 20
+		}
 	]
 ]

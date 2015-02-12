@@ -4,9 +4,15 @@ using System.Collections.Generic;
 using System.Net;
 using System.IO;
 
+using UnityEngine.Audio;
+
 public class EnsembleAPI : MonoBehaviour {
 
+	public AudioMixer audioMixer;
+
 	List<AudioClip> clips = new List<AudioClip>();
+
+	private EnsembleConfig _config;
 
 	IEnumerator LoadFile(string path)
 	{
@@ -34,20 +40,19 @@ public class EnsembleAPI : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		EnsembleConfig config = new EnsembleConfig();
-
-		config.LoadJSON(Application.dataPath + "/StreamingAssets/" + "config.json");
+		_config = new EnsembleConfig();
+		_config.LoadJSON(Application.dataPath + "/StreamingAssets/" + "config.json");
 
 		// Load music files
 		//string[] files = Directory.GetFiles(Application.dataPath + "/StreamingAssets/Music", "*.ogg");
-		string[] files = config.musicFiles;
+		string[] files = _config.musicFiles;
 		Debug.Log("Got " + files.Length + " files");
 		for (int i = 0; i < files.Length; i++) {
 			string file = files[i];
 			StartCoroutine(LoadFile(Application.dataPath + "/StreamingAssets/" + file));
 		}
 
-		WebRequest request = HttpWebRequest.Create(config.compositionsEndpoint);
+		WebRequest request = HttpWebRequest.Create(_config.compositionsEndpoint);
 		WebResponse response = request.GetResponse();
 
 		for (int i = 0; i < response.Headers.Count; i++) {
@@ -78,5 +83,13 @@ public class EnsembleAPI : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		// Get data
+		float flange = Mathf.Sin(Time.time);
+		audioMixer.SetFloat("Flange.Rate", flange);
+
+		// Update sensor data
+		foreach (EnsembleConfig.EffectsMap effect in _config.effects) {
+			Debug.Log("Update " + effect.effectName + " from sensor " + effect.sensorName);
+		}
 	}
 }
