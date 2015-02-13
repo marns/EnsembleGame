@@ -1,6 +1,7 @@
 {
 	"ensemble_api": "http://soundserver.herokuapp.com/api/",
 	"composition_id": "1",
+	"composition_file": "Data/composition1.json",
 	"audio_files": [
 		"Music/hooky.ogg"
 	],

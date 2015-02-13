@@ -1,1 +1,1668 @@
-[{"note_id":1,"value":6.332424264269606,"time":1423718423344,"sensor_type":"adafruit stretch sensor","id":13092},{"note_id":1,"value":null,"time":1423718423346,"sensor_type":"touch button 1","id":13093},{"note_id":1,"value":null,"time":1423718423351,"sensor_type":"tempo button","id":13094},{"note_id":1,"value":6.323681737355757,"time":1423718422838,"sensor_type":"adafruit stretch sensor","id":13095},{"note_id":1,"value":6.329508746501222,"time":1423718423853,"sensor_type":"adafruit stretch sensor","id":13096},{"note_id":1,"value":6.323681737355757,"time":1423718424359,"sensor_type":"adafruit stretch sensor","id":13097},{"note_id":1,"value":null,"time":1423718424364,"sensor_type":"tempo button","id":13098},{"note_id":1,"value":null,"time":1423718424363,"sensor_type":"touch button 2","id":13099},{"note_id":1,"value":null,"time":1423718424361,"sensor_type":"touch button 1","id":13100},{"note_id":1,"value":null,"time":1423718424873,"sensor_type":"tempo button","id":13101},{"note_id":1,"value":null,"time":1423718423858,"sensor_type":"tempo button","id":13102},{"note_id":1,"value":null,"time":1423718424869,"sensor_type":"touch button 1","id":13103},{"note_id":1,"value":6.329508746501222,"time":1423718424867,"sensor_type":"adafruit stretch sensor","id":13104},{"note_id":1,"value":6.329508746501222,"time":1423718425882,"sensor_type":"adafruit stretch sensor","id":13105},{"note_id":1,"value":null,"time":1423718425885,"sensor_type":"touch button 2","id":13106},{"note_id":1,"value":null,"time":1423718425884,"sensor_type":"touch button 1","id":13107},{"note_id":1,"value":null,"time":1423718425378,"sensor_type":"touch button 2","id":13108},{"note_id":1,"value":null,"time":1423718426391,"sensor_type":"touch button 1","id":13109},{"note_id":1,"value":null,"time":1423718426902,"sensor_type":"tempo button","id":13110},{"note_id":1,"value":null,"time":1423718427411,"sensor_type":"tempo button","id":13111},{"note_id":1,"value":null,"time":1423718427916,"sensor_type":"touch button 2","id":13112},{"note_id":1,"value":null,"time":1423718427919,"sensor_type":"tempo button","id":13113},{"note_id":1,"value":6.317860092613271,"time":1423718428421,"sensor_type":"adafruit stretch sensor","id":13114},{"note_id":1,"value":null,"time":1423718428423,"sensor_type":"touch button 1","id":13115},{"note_id":1,"value":null,"time":1423718428425,"sensor_type":"tempo button","id":13116},{"note_id":1,"value":null,"time":1423718428928,"sensor_type":"touch button 1","id":13117},{"note_id":1,"value":6.326594571069282,"time":1423718427913,"sensor_type":"adafruit stretch sensor","id":13118},{"note_id":1,"value":null,"time":1423718428929,"sensor_type":"touch button 2","id":13119},{"note_id":1,"value":null,"time":1423718428930,"sensor_type":"tempo button","id":13120},{"note_id":1,"value":null,"time":1423718429434,"sensor_type":"touch button 1","id":13121},{"note_id":1,"value":null,"time":1423718429436,"sensor_type":"touch button 2","id":13122},{"note_id":1,"value":6.326594571069282,"time":1423718429940,"sensor_type":"adafruit stretch sensor","id":13123},{"note_id":1,"value":null,"time":1423718429944,"sensor_type":"touch button 2","id":13124},{"note_id":1,"value":null,"time":1423718429942,"sensor_type":"touch button 1","id":13125},{"note_id":1,"value":null,"time":1423718429945,"sensor_type":"tempo button","id":13126},{"note_id":1,"value":null,"time":1423718429438,"sensor_type":"tempo button","id":13127},{"note_id":1,"value":null,"time":1423718430451,"sensor_type":"touch button 2","id":13128},{"note_id":1,"value":6.320770244742906,"time":1423718430448,"sensor_type":"adafruit stretch sensor","id":13129},{"note_id":1,"value":null,"time":1423718430959,"sensor_type":"touch button 2","id":13130},{"note_id":1,"value":null,"time":1423718431467,"sensor_type":"tempo button","id":13131},{"note_id":1,"value":6.329508746501222,"time":1423718431462,"sensor_type":"adafruit stretch sensor","id":13132},{"note_id":1,"value":6.326594571069282,"time":1423718430955,"sensor_type":"adafruit stretch sensor","id":13133},{"note_id":1,"value":null,"time":1423718431972,"sensor_type":"touch button 1","id":13134},{"note_id":1,"value":null,"time":1423718432481,"sensor_type":"touch button 2","id":13135},{"note_id":1,"value":null,"time":1423718432479,"sensor_type":"touch button 1","id":13136},{"note_id":1,"value":null,"time":1423718432483,"sensor_type":"tempo button","id":13137},{"note_id":1,"value":6.335341124992743,"time":1423718432985,"sensor_type":"adafruit stretch sensor","id":13138},{"note_id":1,"value":null,"time":1423718432988,"sensor_type":"touch button 2","id":13139},{"note_id":1,"value":6.332424264269606,"time":1423718432478,"sensor_type":"adafruit stretch sensor","id":13140},{"note_id":1,"value":null,"time":1423718433496,"sensor_type":"tempo button","id":13141},{"note_id":1,"value":6.323681737355757,"time":1423718433998,"sensor_type":"adafruit stretch sensor","id":13142},{"note_id":1,"value":null,"time":1423718434001,"sensor_type":"touch button 1","id":13143},{"note_id":1,"value":null,"time":1423718434003,"sensor_type":"tempo button","id":13144},{"note_id":1,"value":6.326594571069282,"time":1423718434505,"sensor_type":"adafruit stretch sensor","id":13145},{"note_id":1,"value":null,"time":1423718434507,"sensor_type":"touch button 1","id":13146},{"note_id":1,"value":null,"time":1423718434510,"sensor_type":"tempo button","id":13147},{"note_id":1,"value":null,"time":1423718433493,"sensor_type":"touch button 1","id":13148},{"note_id":1,"value":null,"time":1423718435013,"sensor_type":"touch button 1","id":13149},{"note_id":1,"value":null,"time":1423718435017,"sensor_type":"tempo button","id":13150},{"note_id":1,"value":6.326594571069282,"time":1423718435519,"sensor_type":"adafruit stretch sensor","id":13151},{"note_id":1,"value":null,"time":1423718435521,"sensor_type":"touch button 1","id":13152},{"note_id":1,"value":null,"time":1423718435522,"sensor_type":"touch button 2","id":13153},{"note_id":1,"value":null,"time":1423718435524,"sensor_type":"tempo button","id":13154},{"note_id":1,"value":null,"time":1423718434508,"sensor_type":"touch button 2","id":13155},{"note_id":1,"value":null,"time":1423718436026,"sensor_type":"touch button 1","id":13156},{"note_id":1,"value":null,"time":1423718436534,"sensor_type":"touch button 1","id":13157},{"note_id":1,"value":6.326594571069282,"time":1423718436532,"sensor_type":"adafruit stretch sensor","id":13158},{"note_id":1,"value":null,"time":1423718431973,"sensor_type":"touch button 2","id":13159},{"note_id":1,"value":null,"time":1423718437040,"sensor_type":"touch button 1","id":13160},{"note_id":1,"value":6.323681737355757,"time":1423718437038,"sensor_type":"adafruit stretch sensor","id":13161},{"note_id":1,"value":null,"time":1423718437042,"sensor_type":"touch button 2","id":13162},{"note_id":1,"value":null,"time":1423718437554,"sensor_type":"tempo button","id":13163},{"note_id":1,"value":null,"time":1423718438058,"sensor_type":"touch button 1","id":13164},{"note_id":1,"value":null,"time":1423718438061,"sensor_type":"tempo button","id":13165},{"note_id":1,"value":6.326594571069282,"time":1423718438563,"sensor_type":"adafruit stretch sensor","id":13166},{"note_id":1,"value":null,"time":1423718438566,"sensor_type":"touch button 2","id":13167},{"note_id":1,"value":null,"time":1423718438565,"sensor_type":"touch button 1","id":13168},{"note_id":1,"value":null,"time":1423718439072,"sensor_type":"touch button 2","id":13169},{"note_id":1,"value":null,"time":1423718439071,"sensor_type":"touch button 1","id":13170},{"note_id":1,"value":null,"time":1423718439580,"sensor_type":"touch button 2","id":13171},{"note_id":1,"value":null,"time":1423718440087,"sensor_type":"touch button 1","id":13172},{"note_id":1,"value":6.329508746501222,"time":1423718440085,"sensor_type":"adafruit stretch sensor","id":13173},{"note_id":1,"value":null,"time":1423718436028,"sensor_type":"touch button 2","id":13174},{"note_id":1,"value":null,"time":1423718440600,"sensor_type":"tempo button","id":13175},{"note_id":1,"value":null,"time":1423718441105,"sensor_type":"touch button 1","id":13176},{"note_id":1,"value":null,"time":1423718441617,"sensor_type":"touch button 2","id":13177},{"note_id":1,"value":null,"time":1423718440598,"sensor_type":"touch button 2","id":13178},{"note_id":1,"value":null,"time":1423718441108,"sensor_type":"touch button 2","id":13179},{"note_id":1,"value":null,"time":1423718442126,"sensor_type":"touch button 2","id":13180},{"note_id":1,"value":null,"time":1423718442640,"sensor_type":"touch button 2","id":13181},{"note_id":1,"value":6.329508746501222,"time":1423718442635,"sensor_type":"adafruit stretch sensor","id":13182},{"note_id":1,"value":null,"time":1423718442130,"sensor_type":"tempo button","id":13183},{"note_id":1,"value":null,"time":1423718443151,"sensor_type":"tempo button","id":13184},{"note_id":1,"value":null,"time":1423718443662,"sensor_type":"tempo button","id":13185},{"note_id":1,"value":null,"time":1423718443657,"sensor_type":"touch button 1","id":13186},{"note_id":1,"value":6.323681737355757,"time":1423718444164,"sensor_type":"adafruit stretch sensor","id":13187},{"note_id":1,"value":null,"time":1423718444172,"sensor_type":"tempo button","id":13188},{"note_id":1,"value":null,"time":1423718444170,"sensor_type":"touch button 2","id":13189},{"note_id":1,"value":null,"time":1423718444676,"sensor_type":"touch button 1","id":13190},{"note_id":1,"value":null,"time":1423718444680,"sensor_type":"tempo button","id":13191},{"note_id":1,"value":null,"time":1423718444168,"sensor_type":"touch button 1","id":13192},{"note_id":1,"value":6.332424264269606,"time":1423718445181,"sensor_type":"adafruit stretch sensor","id":13193},{"note_id":1,"value":null,"time":1423718445184,"sensor_type":"touch button 1","id":13194},{"note_id":1,"value":6.332424264269606,"time":1423718445691,"sensor_type":"adafruit stretch sensor","id":13195},{"note_id":1,"value":6.329508746501222,"time":1423718446201,"sensor_type":"adafruit stretch sensor","id":13196},{"note_id":1,"value":null,"time":1423718446205,"sensor_type":"touch button 1","id":13197},{"note_id":1,"value":null,"time":1423718446720,"sensor_type":"tempo button","id":13198},{"note_id":1,"value":null,"time":1423718446713,"sensor_type":"touch button 1","id":13199},{"note_id":1,"value":6.326594571069282,"time":1423718446711,"sensor_type":"adafruit stretch sensor","id":13200},{"note_id":1,"value":null,"time":1423718447226,"sensor_type":"touch button 1","id":13201},{"note_id":1,"value":null,"time":1423718447739,"sensor_type":"touch button 1","id":13202},{"note_id":1,"value":null,"time":1423718448252,"sensor_type":"touch button 2","id":13203},{"note_id":1,"value":6.323681737355757,"time":1423718448244,"sensor_type":"adafruit stretch sensor","id":13204},{"note_id":1,"value":null,"time":1423718448762,"sensor_type":"touch button 2","id":13205},{"note_id":1,"value":6.323681737355757,"time":1423718448757,"sensor_type":"adafruit stretch sensor","id":13206},{"note_id":1,"value":null,"time":1423718448764,"sensor_type":"tempo button","id":13207},{"note_id":1,"value":null,"time":1423718449277,"sensor_type":"touch button 2","id":13208},{"note_id":1,"value":null,"time":1423718449275,"sensor_type":"touch button 1","id":13209},{"note_id":1,"value":6.329508746501222,"time":1423718449269,"sensor_type":"adafruit stretch sensor","id":13210},{"note_id":1,"value":null,"time":1423718449788,"sensor_type":"tempo button","id":13211},{"note_id":1,"value":null,"time":1423718449786,"sensor_type":"touch button 2","id":13212},{"note_id":1,"value":6.323681737355757,"time":1423718449781,"sensor_type":"adafruit stretch sensor","id":13213},{"note_id":1,"value":null,"time":1423718450295,"sensor_type":"touch button 1","id":13214},{"note_id":1,"value":6.323681737355757,"time":1423718450292,"sensor_type":"adafruit stretch sensor","id":13215},{"note_id":1,"value":null,"time":1423718450805,"sensor_type":"tempo button","id":13216},{"note_id":1,"value":null,"time":1423718450804,"sensor_type":"touch button 2","id":13217},{"note_id":1,"value":6.332424264269606,"time":1423718451307,"sensor_type":"adafruit stretch sensor","id":13218},{"note_id":1,"value":null,"time":1423718451309,"sensor_type":"touch button 1","id":13219},{"note_id":1,"value":6.320770244742906,"time":1423718451815,"sensor_type":"adafruit stretch sensor","id":13220},{"note_id":1,"value":6.326594571069282,"time":1423718452324,"sensor_type":"adafruit stretch sensor","id":13221},{"note_id":1,"value":null,"time":1423718452329,"sensor_type":"tempo button","id":13222},{"note_id":1,"value":null,"time":1423718452835,"sensor_type":"touch button 2","id":13223},{"note_id":1,"value":null,"time":1423718453344,"sensor_type":"tempo button","id":13224},{"note_id":1,"value":6.326594571069282,"time":1423718453339,"sensor_type":"adafruit stretch sensor","id":13225},{"note_id":1,"value":null,"time":1423718453340,"sensor_type":"touch button 1","id":13226},{"note_id":1,"value":6.326594571069282,"time":1423718453847,"sensor_type":"adafruit stretch sensor","id":13227},{"note_id":1,"value":null,"time":1423718453852,"sensor_type":"tempo button","id":13228},{"note_id":1,"value":null,"time":1423718454356,"sensor_type":"touch button 1","id":13229},{"note_id":1,"value":null,"time":1423718454867,"sensor_type":"tempo button","id":13230},{"note_id":1,"value":6.323681737355757,"time":1423718454862,"sensor_type":"adafruit stretch sensor","id":13231},{"note_id":1,"value":null,"time":1423718455375,"sensor_type":"tempo button","id":13232},{"note_id":1,"value":null,"time":1423718455880,"sensor_type":"touch button 2","id":13233},{"note_id":1,"value":null,"time":1423718455882,"sensor_type":"tempo button","id":13234},{"note_id":1,"value":null,"time":1423718455878,"sensor_type":"touch button 1","id":13235},{"note_id":1,"value":6.320770244742906,"time":1423718455877,"sensor_type":"adafruit stretch sensor","id":13236},{"note_id":1,"value":null,"time":1423718456386,"sensor_type":"touch button 1","id":13237},{"note_id":1,"value":6.329508746501222,"time":1423718456384,"sensor_type":"adafruit stretch sensor","id":13238},{"note_id":1,"value":null,"time":1423718456387,"sensor_type":"touch button 2","id":13239},{"note_id":1,"value":6.329508746501222,"time":1423718456891,"sensor_type":"adafruit stretch sensor","id":13240},{"note_id":1,"value":null,"time":1423718456893,"sensor_type":"touch button 1","id":13241},{"note_id":1,"value":6.329508746501222,"time":1423718457398,"sensor_type":"adafruit stretch sensor","id":13242},{"note_id":1,"value":null,"time":1423718457406,"sensor_type":"tempo button","id":13243},{"note_id":1,"value":6.326594571069282,"time":1423718457908,"sensor_type":"adafruit stretch sensor","id":13244},{"note_id":1,"value":null,"time":1423718457912,"sensor_type":"touch button 2","id":13245},{"note_id":1,"value":null,"time":1423718458930,"sensor_type":"touch button 1","id":13246},{"note_id":1,"value":null,"time":1423718458932,"sensor_type":"touch button 2","id":13247},{"note_id":1,"value":null,"time":1423718459439,"sensor_type":"touch button 2","id":13248},{"note_id":1,"value":6.323681737355757,"time":1423718459943,"sensor_type":"adafruit stretch sensor","id":13249},{"note_id":1,"value":6.329508746501222,"time":1423718460451,"sensor_type":"adafruit stretch sensor","id":13250},{"note_id":1,"value":null,"time":1423718460960,"sensor_type":"touch button 1","id":13251},{"note_id":1,"value":6.320770244742906,"time":1423718460958,"sensor_type":"adafruit stretch sensor","id":13252},{"note_id":1,"value":null,"time":1423718460964,"sensor_type":"tempo button","id":13253},{"note_id":1,"value":null,"time":1423718460456,"sensor_type":"tempo button","id":13254},{"note_id":1,"value":null,"time":1423718461977,"sensor_type":"touch button 1","id":13255},{"note_id":1,"value":null,"time":1423718461979,"sensor_type":"touch button 2","id":13256},{"note_id":1,"value":null,"time":1423718461980,"sensor_type":"tempo button","id":13257},{"note_id":1,"value":null,"time":1423718462996,"sensor_type":"tempo button","id":13258},{"note_id":1,"value":6.332424264269606,"time":1423718462991,"sensor_type":"adafruit stretch sensor","id":13259},{"note_id":1,"value":null,"time":1423718462994,"sensor_type":"touch button 2","id":13260},{"note_id":1,"value":6.323681737355757,"time":1423718464006,"sensor_type":"adafruit stretch sensor","id":13261},{"note_id":1,"value":null<message truncated>
+[
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718422331,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12754
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718422337,
+    "sensor_type": "tempo button",
+    "id": 12755
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718422335,
+    "sensor_type": "touch button 2",
+    "id": 12756
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718421825,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12757
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718422841,
+    "sensor_type": "touch button 2",
+    "id": 12758
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718422843,
+    "sensor_type": "tempo button",
+    "id": 12759
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718423348,
+    "sensor_type": "touch button 2",
+    "id": 12760
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718423856,
+    "sensor_type": "touch button 2",
+    "id": 12761
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718423854,
+    "sensor_type": "touch button 1",
+    "id": 12762
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718424871,
+    "sensor_type": "touch button 2",
+    "id": 12763
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718425375,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12764
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718425380,
+    "sensor_type": "tempo button",
+    "id": 12765
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718425376,
+    "sensor_type": "touch button 1",
+    "id": 12766
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718425887,
+    "sensor_type": "tempo button",
+    "id": 12767
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718426395,
+    "sensor_type": "tempo button",
+    "id": 12768
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718426393,
+    "sensor_type": "touch button 2",
+    "id": 12769
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718426389,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12770
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718426901,
+    "sensor_type": "touch button 2",
+    "id": 12771
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718426897,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12772
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718426899,
+    "sensor_type": "touch button 1",
+    "id": 12773
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718427407,
+    "sensor_type": "touch button 1",
+    "id": 12774
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718427409,
+    "sensor_type": "touch button 2",
+    "id": 12775
+  },
+  {
+    "note_id": 1,
+    "value": 6.332424264269606,
+    "time": 1423718427405,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12776
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718428424,
+    "sensor_type": "touch button 2",
+    "id": 12777
+  },
+  {
+    "note_id": 1,
+    "value": 6.320770244742906,
+    "time": 1423718428926,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12778
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718427915,
+    "sensor_type": "touch button 1",
+    "id": 12779
+  },
+  {
+    "note_id": 1,
+    "value": 6.314951280349678,
+    "time": 1423718429432,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12780
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718430450,
+    "sensor_type": "touch button 1",
+    "id": 12781
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718430453,
+    "sensor_type": "tempo button",
+    "id": 12782
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718430960,
+    "sensor_type": "tempo button",
+    "id": 12783
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718430957,
+    "sensor_type": "touch button 1",
+    "id": 12784
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718431466,
+    "sensor_type": "touch button 2",
+    "id": 12785
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718431464,
+    "sensor_type": "touch button 1",
+    "id": 12786
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718431975,
+    "sensor_type": "tempo button",
+    "id": 12787
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718432986,
+    "sensor_type": "touch button 1",
+    "id": 12788
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718432989,
+    "sensor_type": "tempo button",
+    "id": 12789
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718433491,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12790
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718433494,
+    "sensor_type": "touch button 2",
+    "id": 12791
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718434002,
+    "sensor_type": "touch button 2",
+    "id": 12792
+  },
+  {
+    "note_id": 1,
+    "value": 6.320770244742906,
+    "time": 1423718435012,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12793
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718435015,
+    "sensor_type": "touch button 2",
+    "id": 12794
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718436025,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12795
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718436030,
+    "sensor_type": "tempo button",
+    "id": 12796
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718436535,
+    "sensor_type": "touch button 2",
+    "id": 12797
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718436537,
+    "sensor_type": "tempo button",
+    "id": 12798
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718431970,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12799
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718437045,
+    "sensor_type": "tempo button",
+    "id": 12800
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718437550,
+    "sensor_type": "touch button 1",
+    "id": 12801
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718437548,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12802
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718438059,
+    "sensor_type": "touch button 2",
+    "id": 12803
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718438056,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12804
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718437552,
+    "sensor_type": "touch button 2",
+    "id": 12805
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718438568,
+    "sensor_type": "tempo button",
+    "id": 12806
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718439069,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12807
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718439074,
+    "sensor_type": "tempo button",
+    "id": 12808
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718439582,
+    "sensor_type": "tempo button",
+    "id": 12809
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718439577,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12810
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718439579,
+    "sensor_type": "touch button 1",
+    "id": 12811
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718440089,
+    "sensor_type": "touch button 2",
+    "id": 12812
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718440090,
+    "sensor_type": "tempo button",
+    "id": 12813
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718440596,
+    "sensor_type": "touch button 1",
+    "id": 12814
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718441103,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12815
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718441110,
+    "sensor_type": "tempo button",
+    "id": 12816
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718440593,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12817
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718441612,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12818
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718441615,
+    "sensor_type": "touch button 1",
+    "id": 12819
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718441619,
+    "sensor_type": "tempo button",
+    "id": 12820
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718442122,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12821
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718442124,
+    "sensor_type": "touch button 1",
+    "id": 12822
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718442637,
+    "sensor_type": "touch button 1",
+    "id": 12823
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718442642,
+    "sensor_type": "tempo button",
+    "id": 12824
+  },
+  {
+    "note_id": 1,
+    "value": 6.320770244742906,
+    "time": 1423718443145,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12825
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718443149,
+    "sensor_type": "touch button 2",
+    "id": 12826
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718443147,
+    "sensor_type": "touch button 1",
+    "id": 12827
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718443659,
+    "sensor_type": "touch button 2",
+    "id": 12828
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718443655,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12829
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718444674,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12830
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718444678,
+    "sensor_type": "touch button 2",
+    "id": 12831
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718445189,
+    "sensor_type": "tempo button",
+    "id": 12832
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718445187,
+    "sensor_type": "touch button 2",
+    "id": 12833
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718445693,
+    "sensor_type": "touch button 1",
+    "id": 12834
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718445699,
+    "sensor_type": "tempo button",
+    "id": 12835
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718445697,
+    "sensor_type": "touch button 2",
+    "id": 12836
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718446209,
+    "sensor_type": "tempo button",
+    "id": 12837
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718446715,
+    "sensor_type": "touch button 2",
+    "id": 12838
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718446207,
+    "sensor_type": "touch button 2",
+    "id": 12839
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718447223,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12840
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718447228,
+    "sensor_type": "touch button 2",
+    "id": 12841
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718447741,
+    "sensor_type": "touch button 2",
+    "id": 12842
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718447733,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12843
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718447742,
+    "sensor_type": "tempo button",
+    "id": 12844
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718448254,
+    "sensor_type": "tempo button",
+    "id": 12845
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718448247,
+    "sensor_type": "touch button 1",
+    "id": 12846
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718447230,
+    "sensor_type": "tempo button",
+    "id": 12847
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718448760,
+    "sensor_type": "touch button 1",
+    "id": 12848
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718449278,
+    "sensor_type": "tempo button",
+    "id": 12849
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718449784,
+    "sensor_type": "touch button 1",
+    "id": 12850
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718450296,
+    "sensor_type": "touch button 2",
+    "id": 12851
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718450298,
+    "sensor_type": "tempo button",
+    "id": 12852
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718450802,
+    "sensor_type": "touch button 1",
+    "id": 12853
+  },
+  {
+    "note_id": 1,
+    "value": 6.332424264269606,
+    "time": 1423718450800,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12854
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718451313,
+    "sensor_type": "tempo button",
+    "id": 12855
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718451311,
+    "sensor_type": "touch button 2",
+    "id": 12856
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718451818,
+    "sensor_type": "touch button 2",
+    "id": 12857
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718451820,
+    "sensor_type": "tempo button",
+    "id": 12858
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718451817,
+    "sensor_type": "touch button 1",
+    "id": 12859
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718452327,
+    "sensor_type": "touch button 2",
+    "id": 12860
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718452834,
+    "sensor_type": "touch button 1",
+    "id": 12861
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718452837,
+    "sensor_type": "tempo button",
+    "id": 12862
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718452832,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12863
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718453342,
+    "sensor_type": "touch button 2",
+    "id": 12864
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718452325,
+    "sensor_type": "touch button 1",
+    "id": 12865
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718453849,
+    "sensor_type": "touch button 1",
+    "id": 12866
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718453851,
+    "sensor_type": "touch button 2",
+    "id": 12867
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718454360,
+    "sensor_type": "tempo button",
+    "id": 12868
+  },
+  {
+    "note_id": 1,
+    "value": 6.332424264269606,
+    "time": 1423718454355,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12869
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718454358,
+    "sensor_type": "touch button 2",
+    "id": 12870
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718454864,
+    "sensor_type": "touch button 1",
+    "id": 12871
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718454866,
+    "sensor_type": "touch button 2",
+    "id": 12872
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718455373,
+    "sensor_type": "touch button 2",
+    "id": 12873
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718455371,
+    "sensor_type": "touch button 1",
+    "id": 12874
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718455370,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12875
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718456896,
+    "sensor_type": "tempo button",
+    "id": 12876
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718456894,
+    "sensor_type": "touch button 2",
+    "id": 12877
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718457400,
+    "sensor_type": "touch button 1",
+    "id": 12878
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718457402,
+    "sensor_type": "touch button 2",
+    "id": 12879
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718456389,
+    "sensor_type": "tempo button",
+    "id": 12880
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718457914,
+    "sensor_type": "tempo button",
+    "id": 12881
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718457910,
+    "sensor_type": "touch button 1",
+    "id": 12882
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718458420,
+    "sensor_type": "touch button 2",
+    "id": 12883
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718458418,
+    "sensor_type": "touch button 1",
+    "id": 12884
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718458416,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12885
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718458424,
+    "sensor_type": "tempo button",
+    "id": 12886
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718458934,
+    "sensor_type": "tempo button",
+    "id": 12887
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718458928,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12888
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718459441,
+    "sensor_type": "tempo button",
+    "id": 12889
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718459437,
+    "sensor_type": "touch button 1",
+    "id": 12890
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718459436,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12891
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718459948,
+    "sensor_type": "tempo button",
+    "id": 12892
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718459946,
+    "sensor_type": "touch button 2",
+    "id": 12893
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718459944,
+    "sensor_type": "touch button 1",
+    "id": 12894
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718460454,
+    "sensor_type": "touch button 2",
+    "id": 12895
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718460452,
+    "sensor_type": "touch button 1",
+    "id": 12896
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718460962,
+    "sensor_type": "touch button 2",
+    "id": 12897
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718461468,
+    "sensor_type": "touch button 1",
+    "id": 12898
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718461466,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12899
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718461469,
+    "sensor_type": "touch button 2",
+    "id": 12900
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718461471,
+    "sensor_type": "tempo button",
+    "id": 12901
+  },
+  {
+    "note_id": 1,
+    "value": 6.320770244742906,
+    "time": 1423718461975,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12902
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718462483,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12903
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718462485,
+    "sensor_type": "touch button 1",
+    "id": 12904
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718462488,
+    "sensor_type": "tempo button",
+    "id": 12905
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718462487,
+    "sensor_type": "touch button 2",
+    "id": 12906
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718462992,
+    "sensor_type": "touch button 1",
+    "id": 12907
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718463501,
+    "sensor_type": "touch button 2",
+    "id": 12908
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718463498,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12909
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718463503,
+    "sensor_type": "tempo button",
+    "id": 12910
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718464011,
+    "sensor_type": "tempo button",
+    "id": 12911
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718464515,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12912
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718465022,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12913
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718465024,
+    "sensor_type": "touch button 1",
+    "id": 12914
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718465026,
+    "sensor_type": "touch button 2",
+    "id": 12915
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718465529,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12916
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718466036,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12917
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718466040,
+    "sensor_type": "touch button 2",
+    "id": 12918
+  },
+  {
+    "note_id": 1,
+    "value": 6.338259329289229,
+    "time": 1423718467053,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12919
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718466547,
+    "sensor_type": "touch button 2",
+    "id": 12920
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718467574,
+    "sensor_type": "touch button 1",
+    "id": 12921
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718467575,
+    "sensor_type": "touch button 2",
+    "id": 12922
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718467577,
+    "sensor_type": "tempo button",
+    "id": 12923
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718468080,
+    "sensor_type": "touch button 1",
+    "id": 12924
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718468591,
+    "sensor_type": "tempo button",
+    "id": 12925
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718468588,
+    "sensor_type": "touch button 1",
+    "id": 12926
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718469094,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12927
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718469097,
+    "sensor_type": "touch button 2",
+    "id": 12928
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718469604,
+    "sensor_type": "touch button 2",
+    "id": 12929
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718469601,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12930
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718470108,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12931
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718470110,
+    "sensor_type": "touch button 1",
+    "id": 12932
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718470113,
+    "sensor_type": "tempo button",
+    "id": 12933
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718469606,
+    "sensor_type": "tempo button",
+    "id": 12934
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718469603,
+    "sensor_type": "touch button 1",
+    "id": 12935
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718471123,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12936
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718471129,
+    "sensor_type": "tempo button",
+    "id": 12937
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718471637,
+    "sensor_type": "tempo button",
+    "id": 12938
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718472141,
+    "sensor_type": "touch button 1",
+    "id": 12939
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718472648,
+    "sensor_type": "touch button 1",
+    "id": 12940
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718472650,
+    "sensor_type": "touch button 2",
+    "id": 12941
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718472652,
+    "sensor_type": "tempo button",
+    "id": 12942
+  },
+  {
+    "note_id": 1,
+    "value": 6.317860092613271,
+    "time": 1423718473154,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12943
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718473158,
+    "sensor_type": "touch button 2",
+    "id": 12944
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718473663,
+    "sensor_type": "touch button 1",
+    "id": 12945
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718473667,
+    "sensor_type": "tempo button",
+    "id": 12946
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718469095,
+    "sensor_type": "touch button 1",
+    "id": 12947
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718474172,
+    "sensor_type": "touch button 1",
+    "id": 12948
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718474173,
+    "sensor_type": "touch button 2",
+    "id": 12949
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718474677,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12950
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718474682,
+    "sensor_type": "tempo button",
+    "id": 12951
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718474678,
+    "sensor_type": "touch button 1",
+    "id": 12952
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718474680,
+    "sensor_type": "touch button 2",
+    "id": 12953
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718475189,
+    "sensor_type": "tempo button",
+    "id": 12954
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718475186,
+    "sensor_type": "touch button 1",
+    "id": 12955
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718475188,
+    "sensor_type": "touch button 2",
+    "id": 12956
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718475696,
+    "sensor_type": "touch button 2",
+    "id": 12957
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718475697,
+    "sensor_type": "tempo button",
+    "id": 12958
+  },
+  {
+    "note_id": 1,
+    "value": 6.332424264269606,
+    "time": 1423718475692,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12959
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718476205,
+    "sensor_type": "tempo button",
+    "id": 12960
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718476710,
+    "sensor_type": "touch button 2",
+    "id": 12961
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718476712,
+    "sensor_type": "tempo button",
+    "id": 12962
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718477216,
+    "sensor_type": "touch button 1",
+    "id": 12963
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718477218,
+    "sensor_type": "touch button 2",
+    "id": 12964
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718477722,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12965
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718477727,
+    "sensor_type": "tempo button",
+    "id": 12966
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718477725,
+    "sensor_type": "touch button 2",
+    "id": 12967
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718478229,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12968
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718478234,
+    "sensor_type": "tempo button",
+    "id": 12969
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718478739,
+    "sensor_type": "touch button 2",
+    "id": 12970
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718478737,
+    "sensor_type": "touch button 1",
+    "id": 12971
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718478741,
+    "sensor_type": "tempo button",
+    "id": 12972
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718479242,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12973
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718479246,
+    "sensor_type": "touch button 2",
+    "id": 12974
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718479755,
+    "sensor_type": "tempo button",
+    "id": 12975
+  },
+  {
+    "note_id": 1,
+    "value": 6.329508746501222,
+    "time": 1423718480258,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12976
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718480263,
+    "sensor_type": "tempo button",
+    "id": 12977
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718479753,
+    "sensor_type": "touch button 2",
+    "id": 12978
+  },
+  {
+    "note_id": 1,
+    "value": 6.332424264269606,
+    "time": 1423718479750,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12979
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718480769,
+    "sensor_type": "touch button 2",
+    "id": 12980
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718480767,
+    "sensor_type": "touch button 1",
+    "id": 12981
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718481277,
+    "sensor_type": "tempo button",
+    "id": 12982
+  },
+  {
+    "note_id": 1,
+    "value": 6.323681737355757,
+    "time": 1423718481779,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12983
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718481782,
+    "sensor_type": "touch button 2",
+    "id": 12984
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718481784,
+    "sensor_type": "tempo button",
+    "id": 12985
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718482287,
+    "sensor_type": "touch button 1",
+    "id": 12986
+  },
+  {
+    "note_id": 1,
+    "value": 6.326594571069282,
+    "time": 1423718482285,
+    "sensor_type": "adafruit stretch sensor",
+    "id": 12987
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718481276,
+    "sensor_type": "touch button 2",
+    "id": 12988
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718482289,
+    "sensor_type": "touch button 2",
+    "id": 12989
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718482290,
+    "sensor_type": "tempo button",
+    "id": 12990
+  },
+  {
+    "note_id": 1,
+    "value": null,
+    "time": 1423718482795,
+    "sensor_type": "touch button 2",
+    "id": 12991
+  }
+]

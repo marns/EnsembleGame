@@ -69,55 +69,61 @@ public class EnsembleAPI : MonoBehaviour {
 			StartCoroutine(LoadFile(Application.streamingAssetsPath + "/" + file));
 		}
 
-		WebRequest request = HttpWebRequest.Create(_config.ensembleApi + "Compositions");
-		WebResponse response = request.GetResponse();
+		Stream inputStream = null;
+		if (!string.IsNullOrEmpty(_config.compositionFile)) {
+			inputStream = new FileStream(Application.streamingAssetsPath + "/" + _config.compositionFile, FileMode.Open);
+		} else {
+			WebRequest request = HttpWebRequest.Create(_config.ensembleApi + "Compositions");
+			WebResponse response = request.GetResponse();
 
-		for (int i = 0; i < response.Headers.Count; i++) {
-			string val = response.Headers.GetKey(i) + ":";
-			foreach (string header in response.Headers.GetValues(i)) {
-				val += header + ":";
+			for (int i = 0; i < response.Headers.Count; i++) {
+				string val = response.Headers.GetKey(i) + ":";
+				foreach (string header in response.Headers.GetValues(i)) {
+					val += header + ":";
+				}
+				Debug.Log (val);
 			}
-			Debug.Log (val);
-		}
 
-		int lastId = -1;
-		using (StreamReader reader = new StreamReader(response.GetResponseStream())) {
-
-			string contents = reader.ReadToEnd();
-			Debug.Log(contents);
-
-			SimpleJSON.JSONNode node = SimpleJSON.JSON.Parse(contents);
-			Debug.Log("Count: " + node.Count);
-
-			foreach (SimpleJSON.JSONNode child in node.Children) {
-				//Debug.Log("name:" + child["name"]);
-				//Debug.Log("tempo:" + child["tempo"].AsFloat);
-				//Debug.Log("created_by:" + child["created_by"]);
-				Debug.Log("id:" + child["id"]);
-				lastId = child["id"].AsInt;
+			int lastId = -1;
+			using (StreamReader reader = new StreamReader(response.GetResponseStream())) {
+				
+				string contents = reader.ReadToEnd();
+				Debug.Log(contents);
+				
+				SimpleJSON.JSONNode node = SimpleJSON.JSON.Parse(contents);
+				Debug.Log("Count: " + node.Count);
+				
+				foreach (SimpleJSON.JSONNode child in node.Children) {
+					//Debug.Log("name:" + child["name"]);
+					//Debug.Log("tempo:" + child["tempo"].AsFloat);
+					//Debug.Log("created_by:" + child["created_by"]);
+					Debug.Log("id:" + child["id"]);
+					lastId = child["id"].AsInt;
+				}
 			}
-		}
-		if (_config.compositionId < 0) {
-			// Get latest ID
-			Debug.Log("Using latest composition ID: " + lastId);
-			_config.compositionId = lastId;
-		}
-
-		// Get notes from composition
-		// Pull note data
-		Debug.Log("GET NOTES! From composition: " + _config.compositionId);
-		request = HttpWebRequest.Create(_config.ensembleApi + "Compositions/" + _config.compositionId + "/notes");
-		response = request.GetResponse();
-
-		for (int i = 0; i < response.Headers.Count; i++) {
-			string val = response.Headers.GetKey(i) + ":";
-			foreach (string header in response.Headers.GetValues(i)) {
-				val += header + ":";
+			if (_config.compositionId < 0) {
+				// Get latest ID
+				Debug.Log("Using latest composition ID: " + lastId);
+				_config.compositionId = lastId;
 			}
-			//Debug.Log (val);
+			
+			// Get notes from composition
+			// Pull note data
+			Debug.Log("GET NOTES! From composition: " + _config.compositionId);
+			request = HttpWebRequest.Create(_config.ensembleApi + "Compositions/" + _config.compositionId + "/notes");
+			response = request.GetResponse();
+			
+			for (int i = 0; i < response.Headers.Count; i++) {
+				string val = response.Headers.GetKey(i) + ":";
+				foreach (string header in response.Headers.GetValues(i)) {
+					val += header + ":";
+				}
+				//Debug.Log (val);
+			}
+			inputStream = response.GetResponseStream();
 		}
 		
-		using (StreamReader reader = new StreamReader(response.GetResponseStream())) {
+		using (StreamReader reader = new StreamReader(inputStream)) {
 			
 			string contents = reader.ReadToEnd();
 			Debug.Log(contents);

@@ -39,6 +39,7 @@ public class EnsembleConfig {
 	
 	public string ensembleApi = "http://soundserver.herokuapp.com/api/";
 	public int compositionId = 1; // -1 for latest
+	public string compositionFile = "";
 
 	public string[] musicFiles = {
 		"test1.mp3",
@@ -60,6 +61,7 @@ public class EnsembleConfig {
 
 		ensembleApi = node["ensemble_api"];
 		compositionId = node["composition_id"].AsInt;
+		compositionFile = node["composition_file"];
 
 		Debug.Log("ensemble_api:" + ensembleApi);
 		JSONArray audioArray = node["audio_files"].AsArray;
